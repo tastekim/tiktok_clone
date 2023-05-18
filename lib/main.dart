@@ -4,6 +4,7 @@ import 'package:tiktok_clone/features/onboarding/interests_screen.dart';
 import 'constants/gaps.dart';
 import 'constants/sizes.dart';
 import 'features/authentication/sign_up_screen.dart';
+import 'features/main_navigation/main_navigation_screen.dart';
 
 void main() {
   runApp(const TikTokApp());
@@ -31,7 +32,7 @@ class TikTokApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         primaryColor: const Color(0xFFE9435A),
       ),
-      home: const InterestsScreen(),
+      home: const MainNavigationScreen(),
     );
   }
 }
